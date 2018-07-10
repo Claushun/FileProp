@@ -11,7 +11,7 @@ namespace FileProp
   {
     static void prop()
     {
-
+      var something = "this is just a test.";
       string path = @"C:\Users\Miguel\Desktop\Importer\Importer";
       string[] entries = Directory.GetFileSystemEntries(path, "*", SearchOption.AllDirectories);
       string delimiter = ", ";
